@@ -10,6 +10,7 @@ version = "0.1.0"
 plugins {
     application
     kotlin("jvm") version "1.3.61"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.3.60"
     id("org.openjfx.javafxplugin") version "0.0.8"
     id("org.jlleitschuh.gradle.ktlint") version "9.1.1"
 }
@@ -20,6 +21,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.14.0")
     testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
 }
 

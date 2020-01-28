@@ -8,7 +8,7 @@ package de.muspellheim.userstories.json
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class JsonTests {
+class JsonValueTests {
 
     @Test
     fun `create JSON values`() {

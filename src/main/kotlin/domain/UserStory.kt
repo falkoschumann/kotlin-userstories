@@ -26,7 +26,7 @@ enum class Status {
 
 class StoryCreated
 class StoryUpdated
-class StoryDisassembled
+class EpicDisassembled
 class StoryCommitted
 class StoryStarted
 class StoryCompleted
